@@ -8,7 +8,7 @@ header{
   background-color:#8EB69B;
   height: 12rem;
   margin: 0;
-
+  padding: 15px;
 }
 
 footer{
@@ -68,6 +68,7 @@ footer{
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding: 20px;
 }
 
 .navbar{
@@ -99,3 +100,233 @@ footer{
 #E7CBAE
 #B5838D
 #FFFFFF
+
+h1 {
+  font-family: 'Signika Negative', sans-serif;
+  }
+
+h2 {
+font-family: 'Signika Negative', sans-serif;
+}
+
+h3 {
+  margin: 18px;
+  font-family: 'Signika Negative', sans-serif;
+  }
+
+h4 {
+  font-family: 'Signika Negative', sans-serif;
+  }
+    
+p {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  }
+
+  /* CONTACT */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 20px;
+  background: #FAF5EF;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+  font-family: 'Signika Negative', sans-serif;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  width: 90%;
+  font-family: 'Signika Negative', sans-serif;
+  align-self: center;
+  justify-content: center;
+  height: 20px;
+  border:1px solid rgb(0, 0, 0);
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 15px #B5838D;
+}
+
+
+label {
+  margin: 20px;
+  }
+
+  button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin: 20px;
+      height: 45px;
+      width: 40%;
+      border-radius: 15px;
+      background: #E7CBAE;
+      font-family: 'Signika Negative', sans-serif;
+  }
+
+  button:hover {
+      background:#B5838D;
+      border: 1px solid black;
+  }
+  
+
+#message{
+  height: 10rem;
+}
+
+
+/* SIGN UP */
+.containers {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Signika Negative', sans-serif;
+margin-left: auto;
+margin-right: auto;
+}
+
+.container-daypass {
+  display: flex;
+  padding: 30px;
+  background-color:#FAF5EF;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-monthly {
+  display: flex;
+  padding: 30px;
+  background-color:#FAF5EF;
+  margin-bottom: 40px;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-annual {
+  display: flex;
+  padding: 30px;
+  background-color:#FAF5EF;
+  margin-bottom: 40px;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+  height: 40px;
+  width: 30%;
+  border-radius: 15px;
+  background: #E7CBAE;
+  font-family: 'Signika Negative', sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.button:hover {
+  background:#B5838D;
+  border: 1px solid black;
+}
+
+
+/* ABOUT US */
+.anna-img {
+  border-radius: 50%;
+  height: auto;
+  width: 75%;
+  align-self: center;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+  margin: 15px;
+}
+
+.group-img {
+  border-radius: 50%;
+  height: auto;
+  width: 75%;
+  align-self: center;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+  margin: 15px;
+}
+
+.story-container {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  background-color:#E7CBAE;
+  height: auto;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.purpose-container {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  background-color: #E7CBAE;
+  height: auto;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.our-story {
+  background-color: #FAF5EF;
+  padding: 30px;
+  min-width: 400px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+}
+
+.our-purpose {
+  background-color: #FAF5EF;
+  padding: 30px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+}
+
+.quote {
+  display: flex;
+  font-style: italic;
+  background-color: #E7CBAE;
+  padding: 10px;
+  flex-direction: column;
+  align-self:center;
+}
+
+
+/* scaling */ 
+
+@media all and (max-width: 2000px) and (min-width: 900px) {
+
+  .form {
+  max-width: 70%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  
+
+}
+
+
