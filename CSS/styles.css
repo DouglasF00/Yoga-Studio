@@ -400,29 +400,8 @@ margin-right: auto;
   margin-right: auto;
   }
 
-}
 
-  .anna-img {
-    width: 40%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 50px;
-  }
-
-  .our-story {
-    width: 40%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .purpose-container {
-    display: flex;
-    flex-direction: row;
-  }
-
-.group-img {
+.anna-img {
   width: 40%;
   height: auto;
   display: flex;
@@ -430,11 +409,36 @@ margin-right: auto;
   margin-right: 50px;
 }
 
-.our-purpose {
+.our-story {
   width: 40%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.purpose-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.group-img {
+width: 40%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+margin-right: 50px;
+}
+
+.our-purpose {
+width: 40%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
 }
 
 .container-daypass {
@@ -458,3 +462,4 @@ margin-right: auto;
   justify-content: center;
 }
 
+}
