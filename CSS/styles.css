@@ -1,6 +1,7 @@
 
 body{
   margin: 0;
+
 }
 
 header{
@@ -23,7 +24,7 @@ footer{
 
 /* CSS */
 .blah{
-  background-image: linear-gradient(-180deg, #E7CBAE, #B5838D);
+  background: #E7CBAE;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px;
   color: #000000;
@@ -41,10 +42,8 @@ footer{
   justify-content: center;
   left: 20%;
   margin-top: 4rem;
-}
-
-.button-42:hover {
-  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  font-family: 'Signika Negative', sans-serif;
+  border: 1px solid black;
 }
 
 .main{
@@ -96,6 +95,10 @@ footer{
   justify-content: end;
 }
 
+.b_color{
+  background-color: #FAF5EF;
+}
+
 
 @media all and (min-width:600px){
 
@@ -114,6 +117,7 @@ footer{
 
   .navbar{
     background-color: #FAF5EF;
+    transition: 0.5s;
   }
   }
 
@@ -135,9 +139,6 @@ a {
   border-style: solid;
   border-radius: 5%;
   transition: 0.3s;
-  
-
-
 }
 
 .active{
@@ -149,6 +150,23 @@ a {
 .initials{
   width: 150px;
   height: inherit;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.blah:hover{
+  background-color: #B5838D;
+  transition: 0.3s;
+
 }
 
 .c_container{
@@ -229,6 +247,7 @@ label {
   button:hover {
       background:#B5838D;
       border: 1px solid black;
+      transition: 0.3s;
   }
   
 
@@ -262,6 +281,7 @@ margin-right: auto;
 
 .container-daypass:hover {
   border: 2px solid #B5838D;
+  transition: 0.3s;
 }
 
 .container-monthly {
@@ -279,6 +299,7 @@ margin-right: auto;
 
 .container-monthly:hover {
   border: 2px solid #B5838D;
+  transition: 0.3s;
 }
 
 .container-annual {
@@ -316,6 +337,7 @@ margin-right: auto;
 .button:hover {
   background:#B5838D;
   border: 1px solid black;
+  transition: 0.3s;
 }
 
 
@@ -400,45 +422,48 @@ margin-right: auto;
   margin-right: auto;
   }
 
+  .anna-img {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+  }
 
-.anna-img {
+  .our-story {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+  }
+
+  .our-purpose {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+  }
+
+  .story-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .purpose-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+.group-img {
   width: 40%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   margin-right: 50px;
-}
-
-.our-story {
-  width: 40%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.story-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.purpose-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.group-img {
-width: 40%;
-height: auto;
-display: flex;
-flex-wrap: wrap;
-margin-right: 50px;
-}
-
-.our-purpose {
-width: 40%;
-height: auto;
-display: flex;
-flex-wrap: wrap;
 }
 
 .container-daypass {
