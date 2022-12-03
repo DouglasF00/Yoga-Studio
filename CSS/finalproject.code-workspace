@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../finalproject"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Yoga-Studio"
+	}
+}
