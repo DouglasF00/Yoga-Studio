@@ -260,6 +260,10 @@ margin-right: auto;
   align-items: center;
 }
 
+.container-daypass:hover {
+  border: 2px solid #B5838D;
+}
+
 .container-monthly {
   display: flex;
   padding: 30px;
@@ -273,6 +277,10 @@ margin-right: auto;
   text-align: center;
 }
 
+.container-monthly:hover {
+  border: 2px solid #B5838D;
+}
+
 .container-annual {
   display: flex;
   padding: 30px;
@@ -284,6 +292,10 @@ margin-right: auto;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.container-annual:hover {
+  border: 2px solid #B5838D;
 }
 
 .button {
@@ -308,6 +320,13 @@ margin-right: auto;
 
 
 /* ABOUT US */
+.about {
+  background-color:#E7CBAE;
+  font-family: 'Signika Negative', sans-serif;
+  padding: 1px;
+  padding-left: 30px;
+}
+
 .anna-img {
   border-radius: 50%;
   height: auto;
@@ -350,7 +369,6 @@ margin-right: auto;
 .our-story {
   background-color: #FAF5EF;
   padding: 30px;
-  min-width: 400px;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
 }
 
@@ -366,7 +384,8 @@ margin-right: auto;
   background-color: #E7CBAE;
   padding: 10px;
   flex-direction: column;
-  align-self:center;
+  align-items:center;
+  text-align: center;
 }
 
 
@@ -381,7 +400,61 @@ margin-right: auto;
   margin-right: auto;
   }
 
-
 }
 
+  .anna-img {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+  }
+
+  .our-story {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .purpose-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+.group-img {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+
+.our-purpose {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-daypass {
+  width: 50%;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+}
+
+.container-monthly {
+  width: 50%;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+}
+
+.container-annual {
+  width: 50%;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+}
 
