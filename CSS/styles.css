@@ -8,7 +8,7 @@ header{
   background-color:#8EB69B;
   height: 12rem;
   margin: 0;
-  padding: 15px;
+
 }
 
 footer{
@@ -16,17 +16,17 @@ footer{
   height: 8rem;
   background-color: #8EB69B;
   bottom: 0;
-  position: fixed;
+  display: flex;
+  flex-direction: row;
 }
 
 
 /* CSS */
-.button{
+.blah{
   background-image: linear-gradient(-180deg, #E7CBAE, #B5838D);
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px;
   color: #000000;
-  cursor: pointer;
   display: inline-block;
   height: 3rem;
   line-height: 40px;
@@ -81,19 +81,42 @@ footer{
 .navbutton{
   width: 25%;
   padding: 1.5rem;
-  border-style: dashed;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background-color: #8EB69B;
 }
+
+
 
 .p_button{
   width: 100%;
-  height: 70%;
+  height: 30px;
   display: flex;
   justify-content: end;
 }
+
+
+@media all and (min-width:600px){
+
+  .navbutton{
+    margin: 0.5rem;
+    border-radius: 5%;
+    border-style: solid;
+  }
+  .p_button{
+    width: auto; 
+  }
+
+  .text_div{
+    font-size: 1.2em;
+  }
+
+  .navbar{
+    background-color: #FAF5EF;
+  }
+  }
+
 
 .text_div{
   height: 30%;
@@ -108,19 +131,31 @@ a {
 
 .navbutton:hover{
   background-color: #B5838D;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5%;
+  transition: 0.3s;
+  
+
+
 }
 
 .active{
   background-color: #B5838D;
+  border-style: solid;
+  border-radius: 5%;
 }
 
+.initials{
+  width: 150px;
+  height: inherit;
+}
 
-#8EB69B
-#FAF5EF
-#000000
-#E7CBAE
-#B5838D
-#FFFFFF
+.c_container{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
 
 h1 {
   font-family: 'Signika Negative', sans-serif;
@@ -346,7 +381,6 @@ margin-right: auto;
   margin-right: auto;
   }
 
-  
 
 }
 
